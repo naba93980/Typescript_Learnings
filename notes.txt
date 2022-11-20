@@ -1,0 +1,14 @@
+TS is superset of js
+every js file is a valid ts file
+TS has -
+//static typing - type of variable must be known at compile time, in constrast dynamic typed languages are where type is determined at runtime and also the type of variables can change dynamically
+//code completion
+//refractoring
+//shorthand notations
+Transpilation- ts compiler converts the ts file to js
+
+//tsc -v   ->check version
+tsc index.ts  -> compler ts file into js file
+tsc --init ->create tscconfig file
+
+//control space shows all recommendations
