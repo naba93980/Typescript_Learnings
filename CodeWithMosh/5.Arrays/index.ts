@@ -13,7 +13,7 @@ const enum Size //enum
     Medium,
     Large
 };
-const mySize = Size.Medium;
+const mySize : Size = Size.Medium;
 console.log( mySize );
 
 
