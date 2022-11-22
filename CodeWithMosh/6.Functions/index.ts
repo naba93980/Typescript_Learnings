@@ -5,7 +5,12 @@ function calculateTax(income: number, taxyear: number = 2020): (number)//in js u
     return income * 8;
 }
 calculateTax(10000);
-console.log( undefined&&20 );
-console.log( null&&20 ); //truthy and falsy
-console.log( undefined||20 );
-console.log( null||20 ); //truthy or falsy
+console.log(undefined && 20);
+console.log(null && 20); //truthy and falsy
+console.log(undefined || 20);
+console.log(null || 20); //truthy or falsy
+
+const arrFunc = (): void => {
+    console.log("hello");
+}
+arrFunc();
